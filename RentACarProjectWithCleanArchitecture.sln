@@ -1,55 +1,44 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32804.467
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{FA84A07B-9D1B-4B5A-A9DA-93C0FB0E6DF4}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "corePackages", "corePackages", "{77DBC940-351E-43F5-A700-EDB02F01CB1D}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "projects", "projects", "{ACA40C3F-DB8D-466E-9F15-7E9D43BE5490}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core.Application", "..\..\source\repos\nArchitecture\src\corePackages\Core.Application\Core.Application.csproj", "{4BBE9441-94BB-4772-854F-0BA6F441EAD3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Core.Application", "..\..\source\repos\nArchitecture\src\corePackages\Core.Application\Core.Application.csproj", "{4BBE9441-94BB-4772-854F-0BA6F441EAD3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core.CrossCuttingConcerns", "..\..\source\repos\nArchitecture\src\corePackages\Core.CrossCuttingConcers\Core.CrossCuttingConcerns.csproj", "{1D34C5BC-0E35-4956-ACBF-7526A115F938}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Core.CrossCuttingConcerns", "..\..\source\repos\nArchitecture\src\corePackages\Core.CrossCuttingConcers\Core.CrossCuttingConcerns.csproj", "{1D34C5BC-0E35-4956-ACBF-7526A115F938}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core.ElasticSearch", "..\..\source\repos\nArchitecture\src\corePackages\Core.ElasticSearch\Core.ElasticSearch.csproj", "{CE3999A0-1527-4C42-9480-3911368047E1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Core.ElasticSearch", "..\..\source\repos\nArchitecture\src\corePackages\Core.ElasticSearch\Core.ElasticSearch.csproj", "{CE3999A0-1527-4C42-9480-3911368047E1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core.Mailing", "..\..\source\repos\nArchitecture\src\corePackages\Core.Mailing\Core.Mailing.csproj", "{00858CB3-E044-4859-A267-6AF7E084E671}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Core.Mailing", "..\..\source\repos\nArchitecture\src\corePackages\Core.Mailing\Core.Mailing.csproj", "{00858CB3-E044-4859-A267-6AF7E084E671}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core.Persistence", "..\..\source\repos\nArchitecture\src\corePackages\Core.Persistence\Core.Persistence.csproj", "{EE4AFAF7-B708-4581-A940-BF86668FD050}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Core.Persistence", "..\..\source\repos\nArchitecture\src\corePackages\Core.Persistence\Core.Persistence.csproj", "{EE4AFAF7-B708-4581-A940-BF86668FD050}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core.Security", "..\..\source\repos\nArchitecture\src\corePackages\Core.Security\Core.Security.csproj", "{0271DFA5-7157-4D47-9031-A8E2C6848E0F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Core.Security", "..\..\source\repos\nArchitecture\src\corePackages\Core.Security\Core.Security.csproj", "{0271DFA5-7157-4D47-9031-A8E2C6848E0F}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "rentACarProject", "rentACarProject", "{33556A73-7DB8-4567-A847-21C3123B96AA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RentACar.Application", "src\projects\rentACarProject\RentACar.Application\RentACar.Application.csproj", "{C77D6FFC-CD71-4D71-8433-6124B24A7A16}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RentACar.Application", "src\projects\rentACarProject\RentACar.Application\RentACar.Application.csproj", "{C77D6FFC-CD71-4D71-8433-6124B24A7A16}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RentACar.Domain", "src\projects\rentACarProject\RentACar.Domain\RentACar.Domain.csproj", "{92C75B55-7E09-436F-97E3-36608802B857}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RentACar.Domain", "src\projects\rentACarProject\RentACar.Domain\RentACar.Domain.csproj", "{92C75B55-7E09-436F-97E3-36608802B857}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RentACar.Infrastructure", "src\projects\rentACarProject\RentACar.Infrastructure\RentACar.Infrastructure.csproj", "{DC8F96C4-57F7-4FA8-9260-B16659FEC789}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RentACar.Infrastructure", "src\projects\rentACarProject\RentACar.Infrastructure\RentACar.Infrastructure.csproj", "{DC8F96C4-57F7-4FA8-9260-B16659FEC789}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RentACar.Persistence", "src\projects\rentACarProject\RentACar.Persistence\RentACar.Persistence.csproj", "{D0B9842A-091B-4D20-A61D-FBD7DF871BA0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RentACar.Persistence", "src\projects\rentACarProject\RentACar.Persistence\RentACar.Persistence.csproj", "{D0B9842A-091B-4D20-A61D-FBD7DF871BA0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RentACar.WebAPI", "src\projects\rentACarProject\RentACar.WebAPI\RentACar.WebAPI.csproj", "{4F0F2A95-B086-4BFE-B63D-4FF8B7F7BCBE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RentACar.WebAPI", "src\projects\rentACarProject\RentACar.WebAPI\RentACar.WebAPI.csproj", "{4F0F2A95-B086-4BFE-B63D-4FF8B7F7BCBE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{1450E3BD-A238-48BF-BD4C-2A62BF9526A3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
-	EndGlobalSection
-	GlobalSection(NestedProjects) = preSolution
-		{77DBC940-351E-43F5-A700-EDB02F01CB1D} = {FA84A07B-9D1B-4B5A-A9DA-93C0FB0E6DF4}
-		{ACA40C3F-DB8D-466E-9F15-7E9D43BE5490} = {FA84A07B-9D1B-4B5A-A9DA-93C0FB0E6DF4}
-		{4BBE9441-94BB-4772-854F-0BA6F441EAD3} = {77DBC940-351E-43F5-A700-EDB02F01CB1D}
-		{1D34C5BC-0E35-4956-ACBF-7526A115F938} = {77DBC940-351E-43F5-A700-EDB02F01CB1D}
-		{CE3999A0-1527-4C42-9480-3911368047E1} = {77DBC940-351E-43F5-A700-EDB02F01CB1D}
-		{00858CB3-E044-4859-A267-6AF7E084E671} = {77DBC940-351E-43F5-A700-EDB02F01CB1D}
-		{EE4AFAF7-B708-4581-A940-BF86668FD050} = {77DBC940-351E-43F5-A700-EDB02F01CB1D}
-		{0271DFA5-7157-4D47-9031-A8E2C6848E0F} = {77DBC940-351E-43F5-A700-EDB02F01CB1D}
-		{33556A73-7DB8-4567-A847-21C3123B96AA} = {ACA40C3F-DB8D-466E-9F15-7E9D43BE5490}
-		{C77D6FFC-CD71-4D71-8433-6124B24A7A16} = {33556A73-7DB8-4567-A847-21C3123B96AA}
-		{92C75B55-7E09-436F-97E3-36608802B857} = {33556A73-7DB8-4567-A847-21C3123B96AA}
-		{DC8F96C4-57F7-4FA8-9260-B16659FEC789} = {33556A73-7DB8-4567-A847-21C3123B96AA}
-		{D0B9842A-091B-4D20-A61D-FBD7DF871BA0} = {33556A73-7DB8-4567-A847-21C3123B96AA}
-		{4F0F2A95-B086-4BFE-B63D-4FF8B7F7BCBE} = {33556A73-7DB8-4567-A847-21C3123B96AA}
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{4BBE9441-94BB-4772-854F-0BA6F441EAD3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -96,5 +85,27 @@ Global
 		{4F0F2A95-B086-4BFE-B63D-4FF8B7F7BCBE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4F0F2A95-B086-4BFE-B63D-4FF8B7F7BCBE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4F0F2A95-B086-4BFE-B63D-4FF8B7F7BCBE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{77DBC940-351E-43F5-A700-EDB02F01CB1D} = {FA84A07B-9D1B-4B5A-A9DA-93C0FB0E6DF4}
+		{ACA40C3F-DB8D-466E-9F15-7E9D43BE5490} = {FA84A07B-9D1B-4B5A-A9DA-93C0FB0E6DF4}
+		{4BBE9441-94BB-4772-854F-0BA6F441EAD3} = {77DBC940-351E-43F5-A700-EDB02F01CB1D}
+		{1D34C5BC-0E35-4956-ACBF-7526A115F938} = {77DBC940-351E-43F5-A700-EDB02F01CB1D}
+		{CE3999A0-1527-4C42-9480-3911368047E1} = {77DBC940-351E-43F5-A700-EDB02F01CB1D}
+		{00858CB3-E044-4859-A267-6AF7E084E671} = {77DBC940-351E-43F5-A700-EDB02F01CB1D}
+		{EE4AFAF7-B708-4581-A940-BF86668FD050} = {77DBC940-351E-43F5-A700-EDB02F01CB1D}
+		{0271DFA5-7157-4D47-9031-A8E2C6848E0F} = {77DBC940-351E-43F5-A700-EDB02F01CB1D}
+		{33556A73-7DB8-4567-A847-21C3123B96AA} = {ACA40C3F-DB8D-466E-9F15-7E9D43BE5490}
+		{C77D6FFC-CD71-4D71-8433-6124B24A7A16} = {33556A73-7DB8-4567-A847-21C3123B96AA}
+		{92C75B55-7E09-436F-97E3-36608802B857} = {33556A73-7DB8-4567-A847-21C3123B96AA}
+		{DC8F96C4-57F7-4FA8-9260-B16659FEC789} = {33556A73-7DB8-4567-A847-21C3123B96AA}
+		{D0B9842A-091B-4D20-A61D-FBD7DF871BA0} = {33556A73-7DB8-4567-A847-21C3123B96AA}
+		{4F0F2A95-B086-4BFE-B63D-4FF8B7F7BCBE} = {33556A73-7DB8-4567-A847-21C3123B96AA}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4A6E5384-B6C4-4FBE-A232-A1CA9D9FAD66}
 	EndGlobalSection
 EndGlobal
