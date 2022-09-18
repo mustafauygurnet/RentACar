@@ -1,3 +1,4 @@
+using Core.CrossCuttingConcerns.Exceptions;
 using RentACar.Application;
 using RentACar.Persistence;
 
@@ -24,6 +25,11 @@ if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
     app.UseSwaggerUI();
+}
+
+if (app.Environment.IsProduction())
+{
+    app.ConfigureCustomExceptionMiddleware();
 }
 
 app.UseHttpsRedirection();
