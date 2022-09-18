@@ -12,6 +12,7 @@ public class BrandsController : BaseController
     {
         CreatedBrandDto result = await Mediator.Send(createBrandCommand);
 
+        //Http Code 201
         return Created("",result);
     }
 }
