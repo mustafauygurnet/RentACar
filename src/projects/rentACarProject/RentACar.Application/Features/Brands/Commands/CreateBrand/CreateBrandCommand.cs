@@ -1,7 +1,7 @@
 using MediatR;
 using RentACar.Application.Features.Brands.Dtos;
 
-namespace RentACar.Application.Features.Brands.Commands;
+namespace RentACar.Application.Features.Brands.Commands.CreateBrand;
 
 public class CreateBrandCommand : IRequest<CreatedBrandDto>
 {

@@ -1,5 +1,5 @@
 using AutoMapper;
-using RentACar.Application.Features.Brands.Commands;
+using RentACar.Application.Features.Brands.Commands.CreateBrand;
 using RentACar.Application.Features.Brands.Dtos;
 using RentACar.Domain.Entities;
 

@@ -1,11 +1,11 @@
-using MediatR;
 using AutoMapper;
+using MediatR;
 using RentACar.Application.Features.Brands.Dtos;
 using RentACar.Application.Features.Brands.Rules;
 using RentACar.Application.Services.Repositories;
 using RentACar.Domain.Entities;
 
-namespace RentACar.Application.Features.Brands.Commands;
+namespace RentACar.Application.Features.Brands.Commands.CreateBrand;
 
 public class CreateBrandCommandHandler : IRequestHandler<CreateBrandCommand, CreatedBrandDto>
 {
