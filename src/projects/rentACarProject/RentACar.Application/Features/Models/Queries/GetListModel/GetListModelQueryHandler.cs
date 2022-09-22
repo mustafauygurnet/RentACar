@@ -1,6 +1,7 @@
 using AutoMapper;
 using Core.Persistence.Paging;
 using MediatR;
+using Microsoft.EntityFrameworkCore;
 using RentACar.Application.Features.Models.Models;
 using RentACar.Application.Services.Repositories;
 using RentACar.Domain.Entities;
@@ -21,7 +22,10 @@ public class GetListModelQueryHandler : IRequestHandler<GetListModelQuery, Model
     public async Task<ModelListModel> Handle(GetListModelQuery request, CancellationToken cancellationToken)
     {
         IPaginate<Model> models =
-            await _modelRepository.GetListAsync(index: request.PageRequest.Page, size: request.PageRequest.PageSize,
+            await _modelRepository.GetListAsync(
+                include: m=>m.Include(c=>c.Brand),
+                index: request.PageRequest.Page, 
+                size: request.PageRequest.PageSize,
                 cancellationToken: cancellationToken);
 
         ModelListModel modelListModel = _mapper.Map<ModelListModel>(models);

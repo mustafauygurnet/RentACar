@@ -4,6 +4,7 @@ namespace RentACar.Domain.Entities;
 
 public class Brand : Entity
 {
+    public ICollection<Model> Models { get; set; }
     public string Name { get; set; }
 
     public Brand()
